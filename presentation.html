@@ -1,0 +1,710 @@
+<!doctype html>
+<html lang="sk">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claude AI: Tipy a Triky</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/theme/black.min.css">
+    <style>
+        .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+            text-transform: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .reveal {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 36px;
+        }
+        
+        .reveal p {
+            margin: 20px 0;
+        }
+        
+        .reveal code {
+            padding: 2px 8px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+            color: #ff6b6b;
+        }
+        
+        .reveal pre {
+            width: 100%;
+            font-size: 0.55em;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            margin: 20px 0;
+        }
+        
+        .reveal table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            font-size: 0.8em;
+        }
+        
+        .reveal table th,
+        .reveal table td {
+            border: 1px solid #555;
+            padding: 10px;
+            text-align: left;
+        }
+        
+        .reveal table th {
+            background: rgba(255, 255, 255, 0.1);
+        }
+        
+        .tip-box {
+            background: rgba(76, 175, 80, 0.2);
+            border-left: 4px solid #4caf50;
+            padding: 15px;
+            margin: 20px 0;
+            text-align: left;
+        }
+        
+        .trick-box {
+            background: rgba(63, 81, 181, 0.2);
+            border-left: 4px solid #3f51b5;
+            padding: 15px;
+            margin: 20px 0;
+            text-align: left;
+        }
+        
+        .warning-box {
+            background: rgba(244, 67, 54, 0.2);
+            border-left: 4px solid #f44336;
+            padding: 15px;
+            margin: 20px 0;
+            text-align: left;
+        }
+        
+        .good {
+            color: #4caf50;
+        }
+        
+        .bad {
+            color: #f44336;
+        }
+        
+        .emoji {
+            font-size: 1.2em;
+            margin-right: 10px;
+        }
+        
+        .slide-title {
+            font-size: 1.5em;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #42affa;
+            padding-bottom: 15px;
+        }
+        
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            text-align: left;
+        }
+        
+        .bullet-list {
+            text-align: left;
+            margin: 20px 0;
+        }
+        
+        .bullet-list li {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <!-- Titulná strana -->
+            <section>
+                <h1>🤖 Claude AI</h1>
+                <h3>Tipy a Triky</h3>
+                <p style="margin-top: 50px; font-size: 0.7em;">Komprehenzívny sprievodca efektívnym použitím</p>
+            </section>
+
+            <!-- Obsah -->
+            <section>
+                <h2>📑 Obsah Prezentácie</h2>
+                <ul class="bullet-list">
+                    <li>✨ Úvod do Claude AI</li>
+                    <li>💡 Základné Tipy</li>
+                    <li>🎯 Pokročilé Triky</li>
+                    <li>🎨 Promptovanie</li>
+                    <li>📊 Prípadové Štúdie</li>
+                    <li>✅ Best Practices</li>
+                    <li>🔒 Bezpečnosť</li>
+                    <li>🚀 Pokročilé Techniky</li>
+                </ul>
+            </section>
+
+            <!-- ČASŤ 1: Úvod -->
+            <section>
+                <section>
+                    <h2>🤖 Úvod do Claude AI</h2>
+                    <p>Čo potrebuješ vedieť</p>
+                </section>
+
+                <section>
+                    <h3>Čo je Claude AI?</h3>
+                    <ul class="bullet-list">
+                        <li><strong>Pokročilý jazykový model</strong> vyvinutý Anthropic</li>
+                        <li>📝 Vysoká kvalita konverzácií</li>
+                        <li>🔒 Zabudované etické princípy</li>
+                        <li>🔧 Všestrannosť - od kódovania po tvorivé písanie</li>
+                        <li>📚 Dlhý kontext - práca s dlhými textami</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>Verzie Claude</h3>
+                    <table>
+                        <tr>
+                            <th>Verzia</th>
+                            <th>Charakteristiky</th>
+                            <th>Ideálne na</th>
+                        </tr>
+                        <tr>
+                            <td><strong>Opus</strong></td>
+                            <td>Najpokročilejší</td>
+                            <td>Zložité úlohy</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Sonnet</strong></td>
+                            <td>Rýchly + efektívny</td>
+                            <td>Bežné úlohy</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Haiku</strong></td>
+                            <td>Ľahký + rýchly</td>
+                            <td>Jednoduché operácie</td>
+                        </tr>
+                    </table>
+                </section>
+            </section>
+
+            <!-- ČASŤ 2: Základné Tipy -->
+            <section>
+                <section>
+                    <h2>💡 Základné Tipy</h2>
+                    <p>Začni tu</p>
+                </section>
+
+                <section>
+                    <h3>1️⃣ Jasné a Konkrétne Otázky</h3>
+                    <div class="tip-box">
+                        <p><span class="bad">❌ Zlé:</span></p>
+                        <code>Pomôž mi s kódovaním.</code>
+                    </div>
+                    <div class="tip-box" style="border-left-color: #4caf50; background: rgba(76, 175, 80, 0.2);">
+                        <p><span class="good">✅ Dobré:</span></p>
+                        <code>Pomôž mi napísať Python funkciu, ktorá čita CSV súbor a vracia priemernú hodnotu numerického stĺpca "price".</code>
+                    </div>
+                </section>
+
+                <section>
+                    <h3>2️⃣ Kontextové Informácie</h3>
+                    <ul class="bullet-list">
+                        <li>🔧 Technologický stack</li>
+                        <li>📦 Verzia nástrojov</li>
+                        <li>🎯 Cieľ úlohy</li>
+                        <li>📤 Očakávaný výstup</li>
+                        <li>⚙️ Obmedzenia a požiadavky</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>3️⃣ Žiadajte Formátovanie</h3>
+                    <p>Určite, ako chceš výstup:</p>
+                    <ul class="bullet-list">
+                        <li>📋 "Poskytnúť ako JSON"</li>
+                        <li>📊 "Formátovať ako tabuľka"</li>
+                        <li>📝 "Výstup ako Markdown"</li>
+                        <li>🔢 "Číselný zoznam"</li>
+                        <li>📑 "Polia s nadpismi"</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>4️⃣ Postupné Spresnenie</h3>
+                    <p>Prvá odpoveď nie je vždy dokonalá:</p>
+                    <ul class="bullet-list">
+                        <li>"Áno, ale pridaj viac príkladov"</li>
+                        <li>"Zmeň to na Go namiesto Python"</li>
+                        <li>"Zameraj sa viac na bezpečnosť"</li>
+                        <li>"Urob to jednoduchšie"</li>
+                        <li>"Pridaj komentáre do kódu"</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>5️⃣ Rozdeľ Komplexné Úlohy</h3>
+                    <div class="two-column">
+                        <div>
+                            <p><span class="bad">❌ Zle:</span></p>
+                            <code style="display: block;">Vytvor kompletný e-shop backend</code>
+                        </div>
+                        <div>
+                            <p><span class="good">✅ Dobre:</span></p>
+                            <code style="display: block; margin-bottom: 5px;">1. API endpoint autentifikácie</code>
+                            <code style="display: block; margin-bottom: 5px;">2. Endpointy pre produkty</code>
+                            <code style="display: block;">3. Integrácia platieb</code>
+                        </div>
+                    </div>
+                </section>
+            </section>
+
+            <!-- ČASŤ 3: Pokročilé Triky -->
+            <section>
+                <section>
+                    <h2>🎯 Pokročilé Triky</h2>
+                    <p>Staň sa expertem</p>
+                </section>
+
+                <section>
+                    <h3>1️⃣ Role-Based Prompting</h3>
+                    <p>Definuj rolu pre Claude:</p>
+                    <pre><code class="language-text">Si skúsený Python vývojár 
+s 10 rokmi skúsenosti.
+Pomôž mi optimalizovať 
+tento kód na výkon.</code></pre>
+                </section>
+
+                <section>
+                    <h3>2️⃣ Extended Thinking</h3>
+                    <p>Pre zložité problémy:</p>
+                    <pre><code class="language-text">Prosím, premysli si 
+tento problém 
+krok za krokom a potom 
+mi poskytni kompletné 
+riešenie.</code></pre>
+                </section>
+
+                <section>
+                    <h3>3️⃣ Iteratívne Zlepšovanie</h3>
+                    <ul class="bullet-list">
+                        <li>📝 Počiatočný draft</li>
+                        <li>🔍 "Zameraj sa viac na X"</li>
+                        <li>📚 "Pridaj príklady"</li>
+                        <li>✂️ "Zjednoduš to"</li>
+                        <li>🎨 "Vylepši formátovanie"</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>4️⃣ Multi-Turn Konverzácie</h3>
+                    <p>Udržiavaj kontext v rámci rozhovoru:</p>
+                    <pre><code class="language-text">1. Objasnite princípy X
+2. Ako sa to vzťahuje na Y?
+3. Môžeš mi to ukázať 
+   na príklade?</code></pre>
+                </section>
+
+                <section>
+                    <h3>5️⃣ Prompt Chaining</h3>
+                    <p>Spájaj viacero promptov v sérii:</p>
+                    <ol class="bullet-list">
+                        <li>Vygeneruj dátové štruktúry</li>
+                        <li>Vytvor operácie s nimi</li>
+                        <li>Napíš testy</li>
+                        <li>Optimalizuj kód</li>
+                    </ol>
+                </section>
+
+                <section>
+                    <h3>6️⃣ Few-Shot Learning</h3>
+                    <p>Poskytnú príklady:</p>
+                    <pre><code class="language-text">Príklad 1: Input → Output
+Príklad 2: Input → Output
+Príklad 3: Input → Output
+
+Teraz pre moj prípad:
+Input → ?</code></pre>
+                </section>
+
+                <section>
+                    <h3>7️⃣ Chain-of-Thought Prompting</h3>
+                    <p>Požiadaj Claude, aby vysvetlil svoje myslenie:</p>
+                    <ul class="bullet-list">
+                        <li>❓ Čo je problém?</li>
+                        <li>🤔 Aké sú možnosti?</li>
+                        <li>✅ Ktorá je najlepšia?</li>
+                        <li>💭 Prečo?</li>
+                    </ul>
+                </section>
+            </section>
+
+            <!-- ČASŤ 4: Promptovanie -->
+            <section>
+                <section>
+                    <h2>🎨 Umenie Promptovania</h2>
+                    <p>Vytvor dokonalý prompt</p>
+                </section>
+
+                <section>
+                    <h3>Štruktúra Efektívneho Prompta</h3>
+                    <pre><code class="language-text">[ROLA] - Kto si?
+[KONTEXT] - Aká je situácia?
+[ÚLOHA] - Čo máš robiť?
+[FORMÁT] - Ako to chceš?
+[PRÍKLADY] - Prípadne príklady
+[OBMEDZENIA] - Aké sú limity?</code></pre>
+                </section>
+
+                <section>
+                    <h3>Príklad Komplexného Prompta</h3>
+                    <pre><code class="language-text" style="font-size: 0.45em;">Rola: Skúsený technický write 
+s odbornými znalosťami cloudu
+
+Kontext: Tímom sa ťažko pochopí, 
+ako funguje Docker v produkcii.
+
+Úloha: Napíš jasný, zjednodušený sprievodca.
+
+Formát: Markdown s názvami, 
+kódovými blokmi a tabuľkami
+
+Publikum: Junior vývojári bez Docker skúsenosti
+
+Dĺžka: 500-800 slov
+
+Inklúzia: 3 praktické príklady</code></pre>
+                </section>
+
+                <section>
+                    <h3>Bezpečné Slovníčky</h3>
+                    <table>
+                        <tr>
+                            <th>Termín</th>
+                            <th>Efekt</th>
+                        </tr>
+                        <tr>
+                            <td>"prosím"</td>
+                            <td>Zlepšuje tón</td>
+                        </tr>
+                        <tr>
+                            <td>"krok za krokom"</td>
+                            <td>Podrobnejšie vysvetlenia</td>
+                        </tr>
+                        <tr>
+                            <td>"ako začiatočník"</td>
+                            <td>Jednoduchšie vysvetlenia</td>
+                        </tr>
+                        <tr>
+                            <td>"porovnaj"</td>
+                            <td>Viacero možností</td>
+                        </tr>
+                        <tr>
+                            <td>"prečo"</td>
+                            <td>Hlbšie vysvetlenie</td>
+                        </tr>
+                    </table>
+                </section>
+            </section>
+
+            <!-- ČASŤ 5: Prípadové Štúdie -->
+            <section>
+                <section>
+                    <h2>📊 Prípadové Štúdie</h2>
+                    <p>Praktické príklady</p>
+                </section>
+
+                <section>
+                    <h3>Prípadová Štúdia 1: Vývoj Aplikácie</h3>
+                    <p style="text-align: left;"><strong>Problém:</strong></p>
+                    <p style="text-align: left; font-size: 0.8em;">Potrebujem architektúru React aplikácie</p>
+                    <p style="text-align: left; margin-top: 20px;"><strong>Riešenie:</strong></p>
+                    <pre><code class="language-text" style="font-size: 0.4em;">Navrhni architektúru React aplikácie pre e-shop.
+Požiadavky:
+- 50+ produktov
+- Nákupný košík
+- Viacerí používatelia
+- SEO optimalizácia
+
+Formát: Diagram + vysvetlenie + kódové príklady</code></pre>
+                </section>
+
+                <section>
+                    <h3>Prípadová Štúdia 2: Ladenie Kódu</h3>
+                    <p style="text-align: left;"><strong>Problém:</strong></p>
+                    <p style="text-align: left; font-size: 0.8em;">Čudný bug v produkcii</p>
+                    <p style="text-align: left; margin-top: 20px;"><strong>Riešenie:</strong></p>
+                    <pre><code class="language-text" style="font-size: 0.4em;">Analyzuj tento stack trace 
+a pomôž mi nájsť bug.
+
+[Stack trace]
+
+Kontext:
+- Node.js 18
+- Express app
+- PostgreSQL databáza
+- Problém náhodný</code></pre>
+                </section>
+
+                <section>
+                    <h3>Prípadová Štúdia 3: Dokumentácia</h3>
+                    <p style="text-align: left;"><strong>Problém:</strong></p>
+                    <p style="text-align: left; font-size: 0.8em;">Potrebujem API dokumentáciu</p>
+                    <p style="text-align: left; margin-top: 20px;"><strong>Riešenie:</strong></p>
+                    <pre><code class="language-text" style="font-size: 0.4em;">Vytvor OpenAPI 3.0 špecifikáciu.
+
+Endpointy:
+- GET /users
+- POST /users
+- PUT /users/{id}
+- DELETE /users/{id}
+
+Formát: YAML s príkladmi</code></pre>
+                </section>
+            </section>
+
+            <!-- ČASŤ 6: Best Practices -->
+            <section>
+                <section>
+                    <h2>✅ Best Practices</h2>
+                    <p>Rób to správne</p>
+                </section>
+
+                <section>
+                    <h3>1️⃣ Bezpečnosť Promptov</h3>
+                    <div class="tip-box">
+                        <p><span class="good">✅ Robiť:</span></p>
+                        <ul style="font-size: 0.8em;">
+                            <li>Anonymizovať dáta</li>
+                            <li>Overovať citlivé výstupy</li>
+                            <li>Rešpektovať súkromie</li>
+                        </ul>
+                    </div>
+                    <div class="warning-box">
+                        <p><span class="bad">❌ Nerobiť:</span></p>
+                        <ul style="font-size: 0.8em;">
+                            <li>Nedeliť API kľúče</li>
+                            <li>Nedeliť hesla</li>
+                            <li>Nedeliť obchodné tajomstvá</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section>
+                    <h3>2️⃣ Efektivita</h3>
+                    <table style="font-size: 0.8em;">
+                        <tr>
+                            <th>Typ Úlohy</th>
+                            <th>Odporúčaný Model</th>
+                        </tr>
+                        <tr>
+                            <td>Rýchle otázky</td>
+                            <td>Sonnet alebo Haiku</td>
+                        </tr>
+                        <tr>
+                            <td>Zložité úlohy</td>
+                            <td>Opus</td>
+                        </tr>
+                        <tr>
+                            <td>Dlhý kontext</td>
+                            <td>Sonnet alebo Opus</td>
+                        </tr>
+                        <tr>
+                            <td>Nákladnosť</td>
+                            <td>Zvážiť model vs. zložitosť</td>
+                        </tr>
+                    </table>
+                </section>
+
+                <section>
+                    <h3>3️⃣ Kvalita Výstupu</h3>
+                    <ol class="bullet-list">
+                        <li>Jasne definuj očakávania</li>
+                        <li>Poskytnú kontext</li>
+                        <li>Požiadaj o vysvetlenia</li>
+                        <li>Iteruj na spätnej väzbe</li>
+                        <li>Overuj výstupy</li>
+                    </ol>
+                </section>
+
+                <section>
+                    <h3>4️⃣ Opakovateľnosť</h3>
+                    <ul class="bullet-list">
+                        <li>📝 Udržuj presné prompty</li>
+                        <li>📊 Zaznamenávaj efektívne techniky</li>
+                        <li>🔧 Vytvárač šablóny pre bežné úlohy</li>
+                        <li>📚 Zdieľaj poznatky s tímom</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>5️⃣ Čítanie Výstupu</h3>
+                    <ul class="bullet-list">
+                        <li>👁️ Čítaj pozorne</li>
+                        <li>✓ Overuj faktické tvrdenia</li>
+                        <li>🧪 Testuj kódové príklady</li>
+                        <li>🧠 Aplikuj kritické myslenie</li>
+                    </ul>
+                </section>
+            </section>
+
+            <!-- ČASŤ 7: Bezpečnosť -->
+            <section>
+                <section>
+                    <h2>🔒 Bezpečnosť</h2>
+                    <p>Chráň svoje dáta</p>
+                </section>
+
+                <section>
+                    <h3>Bezpečné Používanie Claude</h3>
+                    <div class="tip-box">
+                        <p><span class="good">✅ Robiť:</span></p>
+                        <ul style="font-size: 0.8em;">
+                            <li>Nedeliť citlivé informácie</li>
+                            <li>Anonymizovať osobné údaje</li>
+                            <li>Overovať citlivé výstupy</li>
+                            <li>Používať bezpečné kanály</li>
+                            <li>Dodržiavať politiku podniku</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section>
+                    <h3>Čo Nerobiť</h3>
+                    <div class="warning-box">
+                        <ul style="font-size: 0.8em;">
+                            <li>❌ Nedeliť hesla alebo kľúče</li>
+                            <li>❌ Nedeliť osobné údaje</li>
+                            <li>❌ Nedeliť obchodné tajomstvá</li>
+                            <li>❌ Veriť slepě bez overenia</li>
+                            <li>❌ Ignorovať bezpečnostné varovania</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section>
+                    <h3>Verifikácia Výstupu</h3>
+                    <ol class="bullet-list">
+                        <li>🧪 Testuj kódové príklady</li>
+                        <li>✓ Overi faktické tvrdenia</li>
+                        <li>🔍 Kontroluj bezpečnostné obavy</li>
+                        <li>⚠️ Validuj citlivé výstupy</li>
+                        <li>👥 Konzultuj s expertmi ak je potrebné</li>
+                    </ol>
+                </section>
+            </section>
+
+            <!-- ČASŤ 8: Pokročilé Techniky -->
+            <section>
+                <section>
+                    <h2>🚀 Pokročilé Techniky</h2>
+                    <p>Pre profesionálov</p>
+                </section>
+
+                <section>
+                    <h3>1️⃣ Rubber Duck Debugging</h3>
+                    <pre><code class="language-text">Prompt: Pomôž mi debugovať 
+tento kód ako "rubber duck".
+Pýtaj sa ma otázky, 
+ktoré ma navnú na problém.
+
+[KÓD]</code></pre>
+                </section>
+
+                <section>
+                    <h3>2️⃣ Analogické Myslenie</h3>
+                    <pre><code class="language-text">Vysvetli [KOMPLEXNÝ KONCEPT] 
+pomocou analógie s 
+[JEDNODUCHÉ VECI].</code></pre>
+                </section>
+
+                <section>
+                    <h3>3️⃣ Brainstorming</h3>
+                    <pre><code class="language-text">Generuj [N] inovatívnych 
+nápadov na [PROBLÉM].
+
+Každá ideá by mala byť 
+jedinečná a praktická.</code></pre>
+                </section>
+
+                <section>
+                    <h3>4️⃣ Analýza Konkurencie</h3>
+                    <pre><code class="language-text">Porovnaj [PRODUKT A] 
+s [PRODUKTOM B].
+
+Tabulka výhod, nevýhod, 
+ceny, funkcií.</code></pre>
+                </section>
+            </section>
+
+            <!-- ČASŤ 9: Záver -->
+            <section>
+                <section>
+                    <h2>🎯 Záver</h2>
+                    <p>Čo si Pamätaj</p>
+                </section>
+
+                <section>
+                    <h3>🔑 Kľúčové Poznatky</h3>
+                    <ol class="bullet-list">
+                        <li>💬 <strong>Jasnosť je kľúč</strong> - presné otázky = presné odpovede</li>
+                        <li>📚 <strong>Kontext je dôležitý</strong> - čím viac info, tým lepšie</li>
+                        <li>🔄 <strong>Iterácia funguje</strong> - prvá odpoveď nie je vždy ideálna</li>
+                        <li>✓ <strong>Overuj výstupy</strong> - myslite kriticky</li>
+                        <li>🧪 <strong>Experimentuj</strong> - nájdi techniky, ktoré ti fungujú</li>
+                    </ol>
+                </section>
+
+                <section>
+                    <h3>📝 Ďalšie Kroky</h3>
+                    <ul class="bullet-list">
+                        <li>1️⃣ Skús Claude AI na svojej príštej úlohe</li>
+                        <li>2️⃣ Experimentuj s rôznymi promptami</li>
+                        <li>3️⃣ Zaznamenávaj, čo funguje</li>
+                        <li>4️⃣ Zdieľaj svoje poznatky s tímom</li>
+                        <li>5️⃣ Neustále sa učiť a zlepšovať</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>📚 Užitočné Zdroje</h3>
+                    <ul class="bullet-list" style="font-size: 0.8em;">
+                        <li>📖 <a href="https://docs.anthropic.com" target="_blank">Anthropic Dokumentácia</a></li>
+                        <li>🎮 <a href="https://claude.ai" target="_blank">Claude AI Playground</a></li>
+                        <li>👥 Community forum</li>
+                        <li>📺 Tutorials a príklady</li>
+                        <li>🏆 Best practices podľa odvetvia</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h1>Ďakujem! 🙏</h1>
+                    <h3>Teraz tvoj rad!</h3>
+                    <p style="margin-top: 50px; font-size: 0.7em;">
+                        Vytvorené s Claude AI<br>
+                        © 2025 | <a href="https://github.com/infza" target="_blank">infza</a>
+                    </p>
+                </section>
+            </section>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/plugin/markdown/markdown.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/plugin/highlight/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/plugin/notes/notes.min.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            transition: 'slide',
+            transitionSpeed: 'default',
+            controls: true,
+            progress: true,
+            center: true,
+            keyboard: true,
+            touch: true,
+            overview: true,
+            plugins: [
+                RevealMarkdown,
+                RevealHighlight,
+                RevealNotes
+            ]
+        });
+    </script>
+</body>
+</html>
